@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+/*-------------------------------*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 960px;
+	margin: 0px auto;	
+	background-color: #292929;
+	color: #FFFFFF;
+	font-size: small;	
+}
+
+a {
+	color: white;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
+hr {
+	clear: both;
+	border: 0; 
+	height: 0; 
+	border-top: 1px solid rgb(70, 70, 70);
+}
+/*-------------------------------*/
+#header {
+	width: 100%;
+	height: 225px;
+	margin-top: 10px;
+}
+#content { 
+	width: 100%;
+	height: 100%;
+	margin: 5px 0px;
+}
+#footer {
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+}
+/*-------------------------------*/
+#contentLeft {
+	width: 220px;
+	border-radius: 10px;
+	float: left;
+}
+#contentCenter {
+	width: 715px;
+	height: 100px;
+    float: left;
+	border-width: 0px;
+	border-style: none;
+	margin: 0px 10px;
+}
+/*-------------------------------*/
+#info {
+	border: 3px solid #707070; 
+	border-radius: 5px;
+}
+#info1 {
+	text-align: center;
+	padding: 10px;
+	color: orange;
+}
+#info2 {
+	text-align:center; 
+}
+#info2 table {
+	width:100%;
+	height: 50px;
+}
+#info2 table td {
+	width: 50%;	
+}
+#info2 table td:nth-of-type(2){
+	border-left: 1px solid #707070;
+}
+
+#info3 {
+	text-align: center;
+	padding: 10px;
+}
+/*-------------------------------*/
+#bookIndex {
+	border: 3px solid #707070; 
+	border-radius: 5px; 
+	margin-top: 10px;
+	overflow-y: auto; 
+}
+.chapter {
+	margin: 5px;
+	padding: 5px;
+	color: aqua;
+}
+/*-------------------------------*/
+#footer {
+	margin-top: 10px;
+	color: red;
+}
+#footer p {
+	margin-top: 10px;
+	text-align: center;
+}
