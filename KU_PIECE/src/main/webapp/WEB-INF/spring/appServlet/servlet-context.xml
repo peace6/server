@@ -25,17 +25,7 @@
 
 	
 	<context:component-scan base-package="kr.ac.konkuk" />
-<!-- 	<beans:bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-	<beans:property name="driverClass" value="org.mariadb.jdbc.Driver"/>
-		<beans:property name="jdbcUrl" value="jdbc:mariadb://localhost:5306/spring4fs?charaterEncoding=utf8" />
-		<beans:property name="user" value="spring4" />
-		<beans:property name="password" value="spring4"/>
-	</beans:bean> -->
-	
-	
-
-	
-	
-	
 	
 </beans:beans>
+
+

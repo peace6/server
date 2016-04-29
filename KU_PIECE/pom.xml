@@ -176,7 +176,11 @@
 			<version>20150729</version>
 		</dependency>
 		<!-- ######06.end###### -->
-		
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.10</version>
+		</dependency>
 		<!-- ORM -->
 		<!-- ######07.end###### -->
 		<dependency>
@@ -227,26 +231,10 @@
         <!-- Jackson -->
         
 		<dependency>
-   <groupId>org.codehaus.jackson</groupId>
-   <artifactId>jackson-core-asl</artifactId>
-   <version>1.8.0</version>
-   <type>jar</type>
-   <scope>compile</scope>
-  </dependency>
-  <dependency>
-   <groupId>org.codehaus.jackson</groupId>
-   <artifactId>jackson-mapper-asl</artifactId>
-   <version>1.8.0</version>
-   <type>jar</type>
-   <scope>compile</scope>
-  </dependency>
-  <dependency>
-   <groupId>org.codehaus.jackson</groupId>
-   <artifactId>jackson-xc</artifactId>
-   <version>1.8.0</version>
-   <type>jar</type>
-   <scope>compile</scope>
-  </dependency> 
+   	<groupId>commons-codec</groupId>
+	<artifactId>commons-codec</artifactId>
+	<version>1.10</version>
+  		</dependency> 
 		
 	</dependencies>
     <build>
